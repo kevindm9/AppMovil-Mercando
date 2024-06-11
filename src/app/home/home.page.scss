@@ -1,0 +1,15 @@
+
+.toast-success {
+    --background: #28a745; /* Verde para éxito */
+    --color: white; /* Texto blanco */
+  }
+  
+  .toast-warning {
+    --background: #ffc107; /* Amarillo para advertencia */
+    --color: black; /* Texto negro */
+  }
+  
+  .toast-common {
+    border-radius: 10px; /* Ejemplo de borde redondeado */
+    padding: 10px;
+  }

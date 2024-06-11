@@ -1,0 +1,16 @@
+/* mercando.page.scss */
+.toast-success {
+    --background: #28a745; /* Verde para éxito */
+    --color: white; /* Texto blanco */
+  }
+  
+  .toast-warning {
+    --background: #ffc107; /* Amarillo para advertencia */
+    --color: black; /* Texto negro */
+  }
+  
+  /* Opcionalmente, puedes ajustar otros estilos como padding, border-radius, etc. */
+  .toast-common {
+    border-radius: 10px; /* Ejemplo de borde redondeado */
+    padding: 10px;
+  }
