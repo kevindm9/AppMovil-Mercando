@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="medium" (click)="cancel()">Cancelar</ion-button>
+    </ion-buttons>
+    <ion-title>Nueva Tienda</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="addTienda()" [strong]="true">Guardar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-input labelPlacement="stacked" label="Tienda" [(ngModel)]="nuevaTienda.nombre" placeholder="Nombre de la tienda"></ion-input>
+  </ion-item>
+</ion-content>

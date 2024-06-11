@@ -6,9 +6,8 @@ export const routes: Routes = [
     loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
   },
   {
-    path: 'message/:id',
-    loadComponent: () =>
-      import('./view-message/view-message.page').then((m) => m.ViewMessagePage),
+    path: 'item-list',
+    loadComponent: () => import('./items-lista/items-lista.component').then((m) => m.ItemsListaComponent),
   },
   {
     path: '',
