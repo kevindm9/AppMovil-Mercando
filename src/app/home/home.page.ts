@@ -185,6 +185,7 @@ export class HomePage {
     if (ev.detail.role === 'confirm') {
     }
   }
+
   //agregar items de productos al array
   addItem() {
     if (!this.newItem.nombre || this.newItem.nombre.trim().length === 0) {
@@ -196,6 +197,7 @@ export class HomePage {
       this.showToast('Debes seleccionar una tienda', 'warning');
       return;
     }
+    this.newItem.estado=false;
 
     const newItemCopy = { ...this.newItem };
     this.items.push(newItemCopy);
